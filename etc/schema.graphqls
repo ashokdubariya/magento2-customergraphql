@@ -1,0 +1,11 @@
+type CustomerDetailsOutput {
+    id: Int
+    firstname: String
+    lastname: String
+    email: String
+}
+
+type Query {
+    customerDetails: CustomerDetailsOutput 
+        @resolver(class: "Ashok\\CustomerGraphQl\\Model\\Resolver\\CustomerDetails")
+}
