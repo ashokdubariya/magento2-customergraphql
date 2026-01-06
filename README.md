@@ -2,10 +2,6 @@
 
 This repository contains a **Magento 2 custom module** that demonstrates how to implement **GraphQL** in Magento for exposing custom data through a flexible and scalable API.
 
-The module is inspired by the Webkul tutorial on GraphQL implementation in Magento 2 and is intended for developers building **headless commerce**, **PWA storefronts**, or **custom integrations**.
-
----
-
 ## Key Features
 
 - Custom GraphQL schema implementation
@@ -36,7 +32,9 @@ The module is inspired by the Webkul tutorial on GraphQL implementation in Magen
 
 1. Copy the module to Magento:
 
-```app/code/Ashok/CustomerGraphQl```
+```
+app/code/Ashok/CustomerGraphQl
+```
 
 2. Run Magento commands:
 
@@ -47,12 +45,15 @@ php bin/magento cache:flush
 ```
 
 3. (Optional) Deploy static content:
-```php bin/magento setup:static-content:deploy```
+```
+php bin/magento setup:static-content:deploy
+```
 
 ## GraphQL Endpoint
 After installation, the GraphQL endpoint is available at:
-
-```https://your-magento-site.com/graphql```
+```
+https://your-magento-site.com/graphql
+```
 
 ## GraphQL Schema Example
 File: `etc/schema.graphqls`
