@@ -10,23 +10,17 @@ This repository contains a **Magento 2 custom module** that demonstrates how to 
 - Clean, extensible, and Magento-standard compliant structure
 - Ideal for headless & API-driven Magento projects
 
----
-
 ## Requirements
 
 - Magento Open Source or Adobe Commerce **2.3.0+**
 - PHP **7.2+**
 - GraphQL enabled (default in Magento 2.3+)
 
----
-
 ## Module Information
 
 - **Module Name:** `Ashok_CustomerGraphQl` *(rename as needed)*
 - **Module Type:** Magento 2 Custom Module
 - **API Type:** GraphQL
-
----
 
 ## Installation
 
@@ -42,10 +36,6 @@ app/code/Ashok/CustomerGraphQl
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 php bin/magento cache:flush
-```
-
-3. (Optional) Deploy static content:
-```
 php bin/magento setup:static-content:deploy
 ```
 
